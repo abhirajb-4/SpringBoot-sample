@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+
+body {
+    background: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    top: 0;
+    padding: 0px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.7rem 10%;
+    background-color: #3714ab;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+
+}
+
+.logo-text {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 800;
+    background-clip: border-box;
+    background: -webkit-linear-gradient(rgb(15, 183, 221), rgb(91, 68, 222));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-text span {
+    text-transform: uppercase;
+}
+
+.logo-text image {
+    max-width: 10px;
+    max-height: 10px;
+}
+
+.navbar {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar ul li {
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+.navbar ul li a {
+    padding: 5px 15px;
+    font-weight: 600;
+    color: rgb(67, 29, 233);
+    margin: 8px;
+    border-radius: 10px;
+    text-transform:capitalize;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    color: rgb(67, 29, 233);
+    border-bottom: 0.2rem solid rgb(67, 29, 233);
+    padding: 12px 22px;
+    border-radius: 0px;
+
+}
+
+#check {
+    display: none;
+}
+
+.check-btn {
+    display: none;
+}
+

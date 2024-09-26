@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet"  href="" th:href="@{/css/style.css}"/>
+    <link rel="stylesheet" href="" th:href="@{/css/navbar.css}"/>
+    <script src="https://kit.fontawesome.com/d122da311e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- NAVBAR  SECTION-->
+<nav>
+<div class="header" id="navbarHeader">
+
+    <a href="login.html" class="logo-text">
+        College directory application
+    </a>
+    </nav>
+</div>
+
+<!-- NAV BAR ENDS -->
+
+<!-- LOGIN CONTAINER -->
+
+<div class="login-container">
+    <div class="login-form">
+        <form action="" method="POST" enctype="multipart/form-data">
+            <div class="login-area">
+                <h1>User login</h1>
+                <div class="input-field">
+                        <span class="symbol">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                    <input  type="text" name="email" style='text-transform: lowercase;' placeholder="email">
+                </div>
+                <div class="input-field">
+                        <span class="symbol">
+                            <i class="fa fa-lock" aria-hidden="true"></i>
+                        </span>
+                    <input type="password" name="password" placeholder="Password">
+                </div>
+                <input type="submit" name="login" class="login-btn">
+            </div>
+        </form>
+
+    </div>
+</div>
+
+
